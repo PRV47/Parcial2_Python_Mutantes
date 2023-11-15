@@ -29,5 +29,18 @@ Si se encuentra más de una coincidencia, se asume que es mutante.
 Se pide al usuario que ingrese cadenas de ADN como strings, por ejemplo "ATGCGA", seguido de "CAGTGC", "TTATGT", etc. Despues de ingresar 6 cadenas, el programa las procesa y muestra el resultado. En caso de exito, muestra el mensaje menmensaje "Es mutante". En caso de fracaso, muestra el mensaje "No es mutante".
 
 ## Casos de prueba
-* Exito ("Es un mutante"): ATGCGA ,CAGTGC ,TTATGT ,AGAAGG ,CCCCTA ,TCACTG
-* Fracaso ("No es mutante"): ATGCGA, CAGTGC, TTATTT, AGACGG, GCGTCA, TCACTG
+* Exito ("Es un mutante"): 
+ATGCGA
+CAGTGC
+TTATGT
+AGAAGG
+CCCCTA
+TCACTG
+
+* Fracaso ("No es mutante"):
+ATGCGA
+CAGTGC
+TTATTT
+AGACGG
+GCGTCA
+TCACTG
